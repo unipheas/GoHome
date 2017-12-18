@@ -20,6 +20,9 @@ public class Console : MonoBehaviour {
 		if (location < homeLocation) {
 			print("Go forward to get home");
 		}
+		if (location == homeLocation) {
+			print("I am at home");
+		}
 	}
 
 	// Update is called once per frame
